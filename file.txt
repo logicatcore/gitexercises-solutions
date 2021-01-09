@@ -1,1 +1,2 @@
 Hello world
+Hello world is an excellent program.
