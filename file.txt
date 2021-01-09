@@ -1,1 +1,1 @@
-This is content of file.txt
+This is better content of file.txt
