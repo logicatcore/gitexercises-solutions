@@ -1,5 +1,4 @@
 This file contains bug
 It has to be somewhere.
 I feel like I can smell it.
-THIS IS A BUG - remove the whole line to fix it.
 How this program could work with such bug?
