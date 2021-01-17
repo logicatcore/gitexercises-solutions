@@ -1,3 +1,8 @@
+# What is this repo about?
+
+This repo is my attempt at solving the 23 exercies from https://gitexercises.fracz.com/. While some of the solutions do match exactly with the solutions shown after one successfully solves the exercies, the following collection of solutions are bit detailed in their descriptions along with some links pointing to resources which I found to be helpful in learning and solving the exercises.
+
+Exercise 23 is the most interesting one and is also one of the solution I have spent some time working with `gitpython` in developing an alternate method to find bug in contrast to the `git bisect` solution presented on main website.
 
 # Solutions
 
@@ -268,6 +273,8 @@ $> git checkout find-bug
 $> git bisect start
 $> git bisect bad
 $> git bisect good 1.0
+# the grep documentation for -v flag doesn't make sense with what the author fracz mentioned and also
+# I couldn't see the binary output of '1' or '0' as given in the hints
 $> git bisect run sh -c "openssl enc -base64 -A -d < home-screen-text.txt | grep -v jackass"
 $> git push origin 4d2725ac4c874dbb207770001def27aed48e9ddb:find-bug
 ```
