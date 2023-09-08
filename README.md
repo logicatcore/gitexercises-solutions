@@ -132,7 +132,7 @@ $> git add file.txt
 $> git rebase --continue
 # fix the rebase conflict
 $> git add file.txt
-$> git reabse --continue
+$> git rebase --continue
 $> git verify
 ```
 
